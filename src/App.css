@@ -11,32 +11,129 @@
   will-change: filter;
   transition: filter 300ms;
 }
-.logo:hover {
+
+.input {
+  width: 600px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  background-color: rgb(51, 51, 51);
+  border: none;
+}
+
+.submit {
+  height: 39px;
+  margin-left: -5px;
+  background-color: rgb(51, 51, 51);
+  border: none;
+}
+
+.submit:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+
+ul.benefits {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+li {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.Add {
+  background-color: rgb(92, 129, 250);
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
-.card {
-  padding: 2em;
+.menu {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
 
-.read-the-docs {
-  color: #888;
+.menu-toggle {
+  cursor: pointer;
+}
+
+.menu-icon {
+  display: block;
+  width: 25px;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+
+.menu-list {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-list li {
+  margin-bottom: 10px;
+}
+
+.menu-list li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu-list li a:hover {
+  text-decoration: underline;
+}
+
+.infoBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box {
+  filter: drop-shadow(0 0 2em #000000aa);
+  background-color: gray;
+  border-radius: 20px;
+  width: 300px;
+  height: 280px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  padding-top: 50px;
+}
+
+.btn.Add2 {
+  outline: none;
+
+}
+
+.questions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+}
+
+.Q_boxes {
+  align-items: left;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.summary {
+  text-align: left;
+  
+}
+
+.detai{
+  text-align: justify;
+  margin-left: 15px;
 }
