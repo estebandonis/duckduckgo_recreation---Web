@@ -1,8 +1,22 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+}
+
+nav {
+  height: 30px;
+  width: 100%;
+}
+
+.menu-toggle {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .logo {
@@ -29,7 +43,7 @@
 }
 
 .submit:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 5px #000000aa);
 }
 
 ul.benefits {
@@ -38,9 +52,10 @@ ul.benefits {
   justify-content: center;
 }
 
-li {
+li.benefits {
   margin-left: 20px;
   margin-right: 20px;
+  list-style-type: square;
 }
 
 .Add {
@@ -57,10 +72,13 @@ li {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+
 }
 
 .menu-toggle {
+  position: absolute;
   cursor: pointer;
+  align-items: flex-end;
 }
 
 .menu-icon {
@@ -69,6 +87,7 @@ li {
   height: 2px;
   background-color: #fff;
   margin-bottom: 5px;
+  align-items: self-start;
 }
 
 .menu-list {
@@ -91,49 +110,59 @@ li {
   text-decoration: underline;
 }
 
+li.option {
+  list-style-type: none;
+}
+
 .infoBox {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 150px;
 }
 
 .box {
-  filter: drop-shadow(0 0 2em #000000aa);
-  background-color: gray;
+  filter: drop-shadow(0 0 2px #000000aa);
+  background-color: rgb(36, 36, 36);
   border-radius: 20px;
   width: 300px;
   height: 280px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   padding: 10px;
   padding-top: 50px;
 }
 
+div.greenbox {
+  background-color: rgb(67, 175, 136);
+}
+
+div.image {
+  background-color: rgb(67, 175, 136);
+  padding-top: 100px;
+  width: 100%;
+}
+
 .btn.Add2 {
   outline: none;
-
 }
 
 .questions {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   align-items: left;
 }
 
 .Q_boxes {
-  align-items: left;
-  margin-left: 250px;
-  margin-right: 250px;
+  width: 100%;
+  align-items: center;
+  margin-left: 200px;
 }
 
 .summary {
   text-align: left;
-  
 }
 
 .detai{
   text-align: justify;
-  margin-left: 15px;
+  margin-left: 18px;
 }
