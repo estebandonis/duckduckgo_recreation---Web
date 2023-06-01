@@ -12,30 +12,15 @@ function App() {
       <nav>
         <div className="menu-toggle">
           <span className="menu-icon" />
-          <button type="button" onClick={toggleMenu}>Menú</button>
+          <button type="button" onClick={toggleMenu}>
+            Menú
+          </button>
           {isOpen && (
             <ul className="ul options">
-              <li
-                className="li option"
-              >
-                Twitter
-                {' '}
-              </li>
-              <li
-                className="li option"
-              >
-                Reddit
-              </li>
-              <li
-                className="li option"
-              >
-                Blog
-              </li>
-              <li
-                className="li option"
-              >
-                Newsletter
-              </li>
+              <li className="li option">Twitter </li>
+              <li className="li option">Reddit</li>
+              <li className="li option">Blog</li>
+              <li className="li option">Newsletter</li>
             </ul>
           )}
         </div>

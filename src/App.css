@@ -72,7 +72,6 @@ li.benefits {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-
 }
 
 .menu-toggle {
@@ -162,7 +161,7 @@ div.image {
   text-align: left;
 }
 
-.detai{
+.detai {
   text-align: justify;
   margin-left: 18px;
 }
